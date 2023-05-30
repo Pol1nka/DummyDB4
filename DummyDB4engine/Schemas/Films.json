@@ -1,0 +1,30 @@
+{
+  "name": "Films",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "isPrimary": true
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "releasedate",
+      "type": "datetime",
+      "isPrimary": false
+    },
+    {
+      "name": "revenue",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "genre",
+      "type": "string",
+      "isPrimary": false
+    }
+  ]
+}

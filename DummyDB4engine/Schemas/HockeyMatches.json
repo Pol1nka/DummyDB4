@@ -1,0 +1,35 @@
+{
+  "name": "Generals",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "isPrimary": true
+    },
+    {
+      "name": "matchdate",
+      "type": "datetime",
+      "isPrimary": false
+    },
+    {
+      "name": "starttime",
+      "type": "datetime",
+      "isPrimary": false
+    },
+    {
+      "name": "team1",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "team2",
+      "type": "string",
+      "isPrimary": false
+    },
+    {
+      "name": "score",
+      "type": "string",
+      "isPrimary": false
+    }
+  ]
+}
