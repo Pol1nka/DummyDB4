@@ -7,7 +7,7 @@ namespace DummyDB4engine
         [JsonProperty(PropertyName = "name")]
         public string Name { get; private set; }
     
-        [JsonProperty(PropertyName = "не ")]
+        [JsonProperty(PropertyName = "type")]
         public string Type { get; private set; }
 
         [JsonProperty(PropertyName = "isPrimary")]
